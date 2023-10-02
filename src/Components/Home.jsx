@@ -2,8 +2,8 @@ import { Outlet, NavLink } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div className="h-[100vh] flex justify-center items-center container mx-auto ">
-            <div className="">
+        <div className="h-[100vh] flex justify-center items-center ">
+            <div className="w-96">
                 <div className="my-6 p-2 flex rounded-lg shadow gap-2 ">
                     <NavLink to={"/"} className="w-full">
                         <button className="w-full py-2 rounded-lg font-semibold">
